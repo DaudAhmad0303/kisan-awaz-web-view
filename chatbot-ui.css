@@ -209,3 +209,13 @@
         height: 100%;
     }
 }
+
+#readme-content {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 10px;
+}

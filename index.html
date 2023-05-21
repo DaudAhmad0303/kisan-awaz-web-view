@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./chatbot-ui.css">
+    <link rel="icon" href="./imgs/kisan-awaz-logo.png" type="image/x-icon">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
     <title>Kisan Awaz</title>
 
     <style>
@@ -42,6 +44,12 @@
         <p>گفتگو شروع کرنے کے لیے میسج بٹن پر کلک کریں۔</p>
     </section>
 
+    <!-- <section>
+        <div class="container">
+            <div id="readme-content"></div>
+        </div>
+    </section> -->
+
     <!-- title = "کسان آواز", welcomeMessage = "کسان آواز میں خوش آمدید", inactiveMsg = "Server is down, Please contact the developer to activate it", theme = "blue") -->
     <div id="chat-container"></div>
     <script src="./chatbot-ui.js"></script>
@@ -49,6 +57,17 @@
         createChatBot(host = 'https://37e8-175-107-233-140.ngrok-free.app/webhooks/rest/webhook', botLogo = "./imgs/bot-logo.png",
             title = "کسان آواز", inactiveMsg = "سرور بند ہے، براہ کرم اسے فعال کرنے کے لیے ڈویلپر سے رابطہ کریں۔", theme = "کسان آواز استعمال کرنے کا شکریہ")
     </script>
+    <!-- <script>
+        fetch('https://api.github.com/repos/DaudAhmad0303/kisan-awaz-rasa-chatbot-fyp/readme')
+            .then(response => response.json())
+            .then(data => {
+            const decodedContent = atob(data.content);
+            const readmeContentElement = document.getElementById('readme-content');
+            readmeContentElement.innerHTML = marked(decodedContent);
+            });
+    </script> -->
+
+
 
 
 
